@@ -7,6 +7,6 @@ public class addition {
         int x = sc.nextInt();
         System.out.print("Enter the number2: ");
         int y = sc.nextInt();
-        System.out.print("The sum of number1 and number2 is " + (x+y));
+        System.out.print("The sum of number1 and number 2 is " + (x+y));
     }
 }
