@@ -48,19 +48,7 @@ public class Main {
             students.add(new Student(id, name, studentClass));
         }
 
-        // Sort students by ID
-        Collections.sort(students, new Comparator<Student>() {
-            @Override
-            public int compare(Student s1, Student s2) {
-                return Integer.compare(s1.id, s2.id);
-            }
-        });
-
-        // Display sorted student details
-        System.out.println("\nStudents sorted by ID:");
-        for (Student student : students) {
-            student.display();
-        }
+        
 
         scanner.close();
     }
