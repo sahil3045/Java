@@ -13,7 +13,7 @@ public class Do_while {
             value = scanner.nextInt();
 
         }*/
-        int value = 0;
+        int value = 0; 
         do {
             System.out.println("Enter a number: ");
             value = scanner.nextInt();
