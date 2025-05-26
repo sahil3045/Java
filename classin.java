@@ -14,7 +14,7 @@ public class classin {
     person1.age = 16; 
 
     Person person2 = new Person();
-    person2.name = "Sahil";
+    person2.name = "Sahil"; 
     person2.age = 20;
 
     System.out.println(person1.name);
