@@ -7,7 +7,7 @@ public class handle_exceptions {
         try{
             FileReader fr = new FileReader(file);
         } catch(FileNotFoundException e) {
-            e.printStackTrace(); 
+            System.out.println("File not found " + file.toString());
 
         }
 
