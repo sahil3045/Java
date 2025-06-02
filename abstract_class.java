@@ -33,7 +33,7 @@ public class abstract_class {
         Car car1 = new Car();
         car1.setId(4);
 
-        Machine machine1 = new Machine();
+        //Machine machine1 = new Machine();
          
     }
 }
