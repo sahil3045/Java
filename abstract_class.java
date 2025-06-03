@@ -14,7 +14,7 @@ abstract class Machine{
 class Car extends Machine{
     @Override
     void start(){
-        System.out.println("car start.");
+        System.out.println("car started.");
     }
 }
 
