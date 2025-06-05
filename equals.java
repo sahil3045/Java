@@ -18,7 +18,7 @@ public class equals {
     public static void main(String[] args) {
         Person person1 = new Person(2,  "Sam");
         Person person2 = new Person(3, "Fragile");
-        //System.out.println(person1.equals(person2));
+        System.out.println(person1.equals(person2));
 
         Double value1 = 7.2;
         Double value2 = 7.3;       
