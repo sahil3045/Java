@@ -8,7 +8,7 @@ class Robot23{
         }
     }
 
-    public Robot23(int id){
+    public Robot24(int id){
         this.id = id;
     }
 
