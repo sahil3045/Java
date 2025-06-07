@@ -15,6 +15,8 @@ public class enum_type {
             case MOUSE:
                 System.out.println("Mouse");
                 break;
+
         }
+        System.out.println(Animal.DOG);
     }
 }
