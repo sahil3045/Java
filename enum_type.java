@@ -2,7 +2,7 @@
 public class enum_type {
     public static final int DOG = 1;
     public static final int CAT = 3;
-    public static final int MOUSE = 6;
+    public static final int MOUSE = 5;
     public static void main(String[] args) {
         Animal animal = new Animal.DOG;
         switch (animal){
