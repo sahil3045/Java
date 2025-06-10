@@ -20,15 +20,20 @@ public class Llist {
         /*
          * add items elsewhere in the list 
          */
-        for(int i = 0; i<1E5; i++){
-            list.add(0, i);
-        }
+        //for(int i = 0; i<1E5; i++){
+        //    list.add(0, i);
+        //}
          
         long end = System.currentTimeMillis();
         System.out.println("Time taken: " + (end-start) + " ms for " + type );
     }
     public static void main(String[] args) {
+        // arraylist handles arrays internally 
+        //[0][1][2][3][4][5]......
         ArrayList<Integer> arraylist = new ArrayList<Integer>();
+
+        //Linked list consists of elements where each element has a reference to the previous and next element
+        //[0]->[1]->[2]->[3].........
         LinkedList<Integer> linkedlist = new LinkedList<Integer>();
 
         doTimings("ArrayList", arraylist);
