@@ -2,6 +2,7 @@ package Collection_FW;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class sets {
     public static void main(String[] args) {
@@ -22,6 +23,10 @@ public class sets {
         lset.add("Porter");
         lset.add("Bridges");
         System.out.println(lset);
+
+        //Treeset sorts in natural order;
+        Set<String> set2 = new TreeSet<String>();
+        
 
 
     }
