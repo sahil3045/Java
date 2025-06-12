@@ -19,7 +19,7 @@ public class sets {
 
          //Linkedhashset remembers the order you added the items in
         Set<String> lset = new LinkedHashSet<String>();
-        lset.add("Sa");
+        lset.add("Sam");
         lset.add("Porter");
         lset.add("Bridges");
         System.out.println(lset);
