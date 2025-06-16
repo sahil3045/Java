@@ -31,7 +31,7 @@ public class map_keys {
         Map<Person, Integer> map = new LinkedHashMap<Person, Integer>();
         map.put(p1, 3);
         map.put(p2, 4);
-        map.put(p3, 7);
+        map.put(p3, 8);
 
         for(Person key:map.keySet()){
             System.out.println(key + ": " + map.get(key));
