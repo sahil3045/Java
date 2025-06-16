@@ -29,7 +29,7 @@ public class map_keys {
         
     
         Map<Person, Integer> map = new LinkedHashMap<Person, Integer>();
-        map.put(p1, 2);
+        map.put(p1, 3);
         map.put(p2, 3);
         map.put(p3, 7);
 
