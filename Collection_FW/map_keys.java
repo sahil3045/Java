@@ -24,7 +24,7 @@ public class map_keys {
     public static void main(String[] args) {
 
         Person p1 = new Person(1, "Sm");
-        Person p2 = new Person(2, "Fragile");
+        Person p2 = new Person(2, "Frgile");
         Person p3 = new Person(3, "Hardman");
         
     
