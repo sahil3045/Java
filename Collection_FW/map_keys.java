@@ -23,7 +23,7 @@ class Person {
 public class map_keys {
     public static void main(String[] args) {
 
-        Person p1 = new Person(1, "Sam");
+        Person p1 = new Person(1, "Samm");
         Person p2 = new Person(2, "Fragile");
         Person p3 = new Person(3, "Hardman");
         
