@@ -18,7 +18,7 @@ public class sort_maps {
 
         for(Integer key: map.keySet()){
             String value = map.get(key);
-            System.out.println("Key " + " " + value);
+            System.out.println("Key " + ": " + value);
 
         }
     }
